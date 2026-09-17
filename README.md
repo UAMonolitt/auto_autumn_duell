@@ -14,7 +14,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 
 Y
 
-cd Auto_autumn_duell
+cd auto_autumn_duell
 
 python -m venv .venv
 
@@ -22,7 +22,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 
-Write your skolenmin username and password in password.py
+Write your skolenmin username and password in .env file.
 
 Start programm with:
 
